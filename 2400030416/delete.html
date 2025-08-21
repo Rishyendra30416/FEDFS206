@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="deletedata()">delete item</button>
+    <script>
+        function deletedata(){
+            const confirmdelete=confirm("do u really want to delete it?");
+            if(confirmdelete){
+                alert("item deleted");
+            }else{
+                alert("delete cancelled");
+            }
+        }
+    </script>
+</body>
+</html>

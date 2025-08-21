@@ -1,0 +1,2 @@
+table tag 
+span tag used to arrangr in side by side in html

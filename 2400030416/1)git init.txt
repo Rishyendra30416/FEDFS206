@@ -1,0 +1,8 @@
+1)git init
+2)git config --global user.name"Rishyendra30416"
+3)git config --global user.email "rishithuraka@gmail.com"
+4)git add .
+5)git commit -m "done"
+6)git remote add origin
+https://github.com/Rishyendra30416/FEDFS206.git
+7)git push -u origin master
