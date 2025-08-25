@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form demo</title>
+</head>
+<body>
+    <form action="success.html">
+<caption> Student Registration system</caption><br><br>
+<lable for="fn">First name:</lable>
+<input type="text" id="fn" name="firstname" required><br><br>
+<lable for="ln">last name: </lable>
+<input type="text" id="fn" name="lastname" required><br>
+<label>Gender </label>
+<input type="radio" name="gender" value="male" required> MALE
+<input type="radio" name="gender" value="female" required> FEMALE <br>
+<label>Email</label>
+<input type="email" required><br>
+<label>contact</label>
+<input type="tel" pattern="[0-9]{10}"><br>
+<label>DOB</label>
+<input type="date" required><br>
+<label>Adderess</label>
+<textarea rows="10"></textarea><br>
+<label>Languages known</label>
+<input type="checkbox">Telugu
+<input type="checkbox">Hindi
+<input type="checkbox">English
+<input type="checkbox">Tamil<br>
+<label>Branch:</label>
+<select>
+<option value="cse">cse</option>
+<option value="eee">eee</option>
+<option value="ce">ce</option>
+
+</select><br>
+<label>upload file</label>
+<input type="file" ><br>
+<button>done</button>
+</form>
+
+</body>
+</html>

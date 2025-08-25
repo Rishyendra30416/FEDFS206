@@ -1,0 +1,2 @@
+javscript
+ window, console, document, localstorage, sessionStorage, cookies
